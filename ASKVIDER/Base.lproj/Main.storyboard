@@ -19,9 +19,23 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XSC-Rv-pef">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
-                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NY Times Most Popular" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSk-3H-SHi">
+                                        <rect key="frame" x="8" y="45" width="341" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Quf-2y-Rj3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.15686274510000001" green="0.65098039220000004" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="74" id="Jbe-5n-ojW"/>
+                                    <constraint firstItem="fSk-3H-SHi" firstAttribute="leading" secondItem="XSC-Rv-pef" secondAttribute="leading" constant="8" id="ME3-nk-7Kw"/>
+                                    <constraint firstItem="fSk-3H-SHi" firstAttribute="top" secondItem="XSC-Rv-pef" secondAttribute="top" constant="45" id="MQX-IR-GSO"/>
+                                    <constraint firstAttribute="trailing" secondItem="fSk-3H-SHi" secondAttribute="trailing" constant="26" id="XMC-q0-PHv"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="103" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KpX-Be-12U">

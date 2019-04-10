@@ -159,6 +159,44 @@
 		0E24F14F220AF98600D597D0 /* ASKVIDER */ = {
 			isa = PBXGroup;
 			children = (
+				0E571689225DDD5E003B2B8C /* AFNetworking */,
+				0E24F150220AF98600D597D0 /* AppDelegate.h */,
+				0E24F151220AF98600D597D0 /* AppDelegate.m */,
+				0E24F153220AF98600D597D0 /* ViewController.h */,
+				0E24F154220AF98600D597D0 /* ViewController.m */,
+				0E24F156220AF98700D597D0 /* Main.storyboard */,
+				0E24F159220AF99200D597D0 /* Assets.xcassets */,
+				0E24F15B220AF99200D597D0 /* LaunchScreen.storyboard */,
+				0E18E4AA220B00FC005A8760 /* TableViewCell.h */,
+				0E18E4AB220B00FC005A8760 /* TableViewCell.m */,
+				0E18E4AC220B00FC005A8760 /* TableViewCell.xib */,
+				0E24F15E220AF99200D597D0 /* Info.plist */,
+				0E24F15F220AF99200D597D0 /* main.m */,
+			);
+			path = ASKVIDER;
+			sourceTree = "<group>";
+		};
+		0E24F168220AF99300D597D0 /* ASKVIDERTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E24F169220AF99300D597D0 /* ASKVIDERTests.m */,
+				0E24F16B220AF99300D597D0 /* Info.plist */,
+			);
+			path = ASKVIDERTests;
+			sourceTree = "<group>";
+		};
+		0E24F173220AF99300D597D0 /* ASKVIDERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E24F174220AF99300D597D0 /* ASKVIDERUITests.m */,
+				0E24F176220AF99300D597D0 /* Info.plist */,
+			);
+			path = ASKVIDERUITests;
+			sourceTree = "<group>";
+		};
+		0E571689225DDD5E003B2B8C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
 				0E18E476220B004C005A8760 /* AFHTTPRequestOperation.h */,
 				0E18E492220B0051005A8760 /* AFHTTPRequestOperation.m */,
 				0E18E47A220B004D005A8760 /* AFHTTPRequestOperationManager.h */,
@@ -195,38 +233,8 @@
 				0E18E481220B004E005A8760 /* UIRefreshControl+AFNetworking.m */,
 				0E18E486220B004F005A8760 /* UIWebView+AFNetworking.h */,
 				0E18E480220B004E005A8760 /* UIWebView+AFNetworking.m */,
-				0E24F150220AF98600D597D0 /* AppDelegate.h */,
-				0E24F151220AF98600D597D0 /* AppDelegate.m */,
-				0E24F153220AF98600D597D0 /* ViewController.h */,
-				0E24F154220AF98600D597D0 /* ViewController.m */,
-				0E24F156220AF98700D597D0 /* Main.storyboard */,
-				0E24F159220AF99200D597D0 /* Assets.xcassets */,
-				0E24F15B220AF99200D597D0 /* LaunchScreen.storyboard */,
-				0E18E4AA220B00FC005A8760 /* TableViewCell.h */,
-				0E18E4AB220B00FC005A8760 /* TableViewCell.m */,
-				0E18E4AC220B00FC005A8760 /* TableViewCell.xib */,
-				0E24F15E220AF99200D597D0 /* Info.plist */,
-				0E24F15F220AF99200D597D0 /* main.m */,
 			);
-			path = ASKVIDER;
-			sourceTree = "<group>";
-		};
-		0E24F168220AF99300D597D0 /* ASKVIDERTests */ = {
-			isa = PBXGroup;
-			children = (
-				0E24F169220AF99300D597D0 /* ASKVIDERTests.m */,
-				0E24F16B220AF99300D597D0 /* Info.plist */,
-			);
-			path = ASKVIDERTests;
-			sourceTree = "<group>";
-		};
-		0E24F173220AF99300D597D0 /* ASKVIDERUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0E24F174220AF99300D597D0 /* ASKVIDERUITests.m */,
-				0E24F176220AF99300D597D0 /* Info.plist */,
-			);
-			path = ASKVIDERUITests;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
