@@ -2,7 +2,7 @@
 test
 
 language : objective c
-ather sdk: AFNetworking
+sdk: AFNetworking
 
 open with Xcode then click run button
 
